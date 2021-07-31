@@ -1,0 +1,42 @@
+body{
+    font-family: sans-serif;
+    height: 100vh;
+    margin: 0;
+}
+
+.container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 100px;
+    justify-content: center;
+    padding:0 2rem;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns:  auto 1fr;
+    padding: 0.5rem 1rem;
+    align-items: baseline;
+    height: 100px;
+}
+
+.content{
+    grid-row: 2 / 3;
+    padding:5rem 10rem;
+}
+
+.logo{
+    font-weight: bold;
+    color: #D2872C;
+    font-size: 2rem;
+  
+}
+.navegation{
+    list-style: none;
+    display: grid;
+    grid-auto-flow: column;
+    font-size: 1.3rem;
+    justify-content: end;
+    grid-gap: 1.5rem;
+}
